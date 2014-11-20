@@ -1,0 +1,40 @@
+/home/alexandr/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20141119-6248-12r710f.rb extconf.rb 
+checking for main() in -lpthread... yes
+creating Makefile
+
+make  clean
+
+make
+compiling accessor.cc
+compiling external.cc
+compiling context.cc
+compiling date.cc
+compiling string.cc
+compiling template.cc
+compiling v8.cc
+compiling array.cc
+compiling backref.cc
+compiling exception.cc
+compiling trycatch.cc
+compiling constraints.cc
+compiling gc.cc
+compiling rr.cc
+compiling value.cc
+compiling primitive.cc
+compiling handles.cc
+compiling signature.cc
+compiling script.cc
+compiling constants.cc
+compiling stack.cc
+compiling object.cc
+compiling function.cc
+compiling init.cc
+compiling locker.cc
+compiling heap.cc
+compiling message.cc
+compiling invocation.cc
+linking shared-object v8/init.so
+
+make  install
+/usr/bin/install -m 0755 init.so .gem.20141119-6248-nqjcj0/v8
+installing default init libraries

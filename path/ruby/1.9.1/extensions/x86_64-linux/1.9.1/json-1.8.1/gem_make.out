@@ -1,0 +1,12 @@
+/home/alexandr/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20141119-5353-brmbi8.rb extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling parser.c
+linking shared-object json/ext/parser.so
+
+make  install
+/usr/bin/install -m 0755 parser.so .gem.20141119-5353-j2bhbd/json/ext
+installing default parser libraries
